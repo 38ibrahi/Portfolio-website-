@@ -1,0 +1,94 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #f4f4f9;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+}
+
+#hero .btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    margin-top: 1rem;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+/* Projects */
+.project-card {
+    margin: 1rem 0;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Contact Form */
+#contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+#contact-form button {
+    padding: 0.8rem 2rem;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+}
